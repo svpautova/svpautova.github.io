@@ -28,7 +28,6 @@
 	.what-i-do-list{
 		display: flex;
 		flex-direction: row;
-		padding: 0 100px;
 		align-items: center;
 		justify-content: space-between;
 		width: 1000px;
@@ -99,13 +98,22 @@
 	.what-i-do{
 		align-items: center;
 		justify-content: center;
+		
 	}
 	
+	.what-i-do-text{
+		text-align: center;
+	}
 
 	h3 {
 		color: #8993ad;
 		font-size: 24px;
 		font-weight: normal;
+	}
+	
+	.options-text{
+		color: #8993ad;
+		text-align: center;
 	}
 	</style>
 </head>
@@ -133,42 +141,35 @@
 		</div>
 		<div class="fixed-container second-section">
 			<div="what-i-do">
-				<h2>Что я делаю</h2>
+				<h2 class="what-i-do-text">Что я делаю</h2>
 			</div>
 			<div class="what-i-do-list">
 				<div>
 					<img src="tools-and-utensils.png" alt="tools-and-utensils">
-					<p>
+					<p class="options-text">
 						Вёрстка лендинг-страниц 
-						</p>
-						<p>
 						и сайтов любой сложности 
 					</p>
 				</div>
 				<div>
 					<img src="responsive.png" alt="responsive">
-					<p>
+					<p class="options-text">
 						Адаптивная вёрстка под все 
-						</p>
-						<p>
+						
 						браузеры и устройства 
 					</p>
 				</div>
 				<div>
 					<img src="programming.png" alt="programming">
-					</p>
+					</p class="options-text">
 						Frontend-разработка 
-						</p>
-						<p>
 						и программирование 
 					</p>
 				</div>
 				<div>
 					<img src="coding.png" alt="coding">
-					</p>
+					</p class="options-text">
 						Исправление и доработка 
-						</p>
-						<p>
 						существующей верстки
 					</p>
 				</div>
