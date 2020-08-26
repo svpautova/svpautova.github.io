@@ -124,6 +124,74 @@
 		align-items: center;
 		justify-content: space-between;
 	}
+	.know-price{
+		border: 1px solid #ff4e2e;
+		padding: 16px 40px;
+		background-color: #ff4e2e;
+		color: #fbf8f8;
+		cursor: pointer;
+		width: 20%;
+		position: relative;
+		left: 47%;
+		transform: translate(-50%, 0);
+		margin: 30px;
+	}
+	
+	.examples-text{
+		text-align: center;
+		font-size: 50px;
+		padding: 30px;
+	}
+	
+	.examples-list{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+	}
+	.icons-examples{
+		display: block;
+		margin: 20px;
+		align-items: center;
+		justify-content: space-between;
+	}
+	
+	.fourth-section{
+		background-color: #ff4e2e;
+		height: 300px;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		margin: auto; 
+	}
+	
+	h4{
+		margin: 50px;
+		font-size: 40px;
+		color: white;
+		text-align: center;
+	}
+	
+	h5{
+		margin: 0;
+		font-size: 20px;
+		color: white;
+		text-align: center;
+		padding: 0;
+	}
+	
+	.contacts-section{
+		background-color: white;
+		display: flex;
+		flex-direction: row;
+		height: 250px;
+		
+	}
+	
+	.contact-section-1{
+		display: flex;
+		flex-direction: column;
+	}
 	</style>
 </head>
 <body>
@@ -182,10 +250,82 @@
 						существующей верстки
 					</p>
 				</div>
+				
 			</div>
+			<br >
+				<button class="know-price">Узнать стоимость</button>
+			</br>
+			
+			
+			
+			
+			
+			
+			<div class="fixed-container third-section">
+			<div class="examples">
+				<h2 class="examples-text">Примеры моих работ</h2>
+			</div>
+			<div class="examples-list">
+				<div>
+					<img src="portfolio-1.png" alt="portfolio-1" class = "icons-examples">
+					<p class="options-text">
+						Сайт психолога Веры Антоновой
+					</p>
+				</div>
+				<div>
+					<img src="portfolio-2.png" alt="portfolio-2" class = "icons-examples">
+					<p class="options-text">
+						Сайт магазина детской одежды 
+					</p>
+				</div>
+				<div>
+					<img src="portfolio-3.png" alt="portfolio-3" class = "icons-examples">
+					<p class="options-text">
+						Сайт магазина "Рыболов"
+					</p>
+				</div>
+				
+				
+			</div>
+			<br >
+				<button class="know-price">Заказать проект</button>
+			</br>
+			
+			
+			
+			
+			
+			
 			
 			
 		</div>
 	</header>
+	<div class="fourth-section">
+		<h4>Адаптивная вёрстка под все устройства <br />
+		 и браузеры от 1000 рублей всего за 4 часа.*</h4>
+		<h5>*Срок и стоимость могут отличаться от заявленных и рассчитываются индивидуально, <br />
+		 в зависимости от сложности задач.</h5>
+	</div>
+	<div class="contacts-section">
+		<div class="contact-section-1">
+			<div class ="menu-points">
+				<a href="#">Услуги</a>
+			</div>
+			<div class ="menu-points">
+				<a href="#">Портфолио</a>
+			</div>
+			<div class ="menu-points">
+				<a href="#">Цены</a>
+			</div>
+		</div>
+		
+		<div>
+		<span class="phone">+7 495 555-55-55</span> <br />
+		<span class="e-mail">dmitry@alekseev.ru</span>
+		</div>
+		
+		<div>
+		</div>
+	</div>
 </body>
 </html>
